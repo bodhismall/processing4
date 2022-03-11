@@ -9944,6 +9944,36 @@ public class PApplet implements PConstants {
   }
 
 
+    public final int randomColor(){
+      return g.color(random(255),random(255),random(255));
+    }
+    public final int randomColor(int gray){
+      return g.color(random(x));
+    }
+    public final int randomColor(int gray,int alpha){
+      return g.color(random(gray),random(alpha));
+    }
+    public final int randomColor(int v1, int v2, int v3){
+      return g.color(random(v1),random(v2),random(v3));
+    }
+    public final int randomColor(int v1, int v2, int v3, int alpha){
+      return g.color(random(v1),random(v2),random(v3),random(alpha));
+    }
+    public final int randomColor(){
+      return g.color(random(255),random(255),random(255));
+    }
+    public final int randomColor(float gray){
+      return g.color(random(x));
+    }
+    public final int randomColor(float gray,float alpha){
+      return g.color(random(gray),random(alpha));
+    }
+    public final int randomColor(float v1, float v2, float v3){
+      return g.color(random(v1),random(v2),random(v3));
+    }
+    public final int randomColor(float v1, float v2, float v3, float alpha){
+      return g.color(random(v1),random(v2),random(v3),random(alpha));
+    }
   /**
    *
    * Calculates a <b>color</b> between two colors at a specific increment. The
